@@ -25,19 +25,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-From the repository root, use the Windows launcher:
-
-```bat
-cd phonemaster
-run.bat
-```
-
-Or run the module directly from the source directory:
+From either the project root or the `phonemaster` directory, run:
 
 ```bash
-cd src
 python -m phonemaster
 ```
+
+Or double-click `run.bat`.
+
 
 ## Tech Stack
 

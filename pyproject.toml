@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phonemaster"
+version = "1.0.0"
+description = "Professional mobile device management toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.6.0",
+    "adbutils>=2.0.0",
+    "pymobiledevice3>=4.0.0",
+    "qtawesome>=1.3.0",
+]
+
+[project.scripts]
+phonemaster = "phonemaster.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
